@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onedir --add-data "..\res\;res" --add-data "..\chromedriver.exe;." --icon="..\res\08.ico" "..\Web Scraping.py"

@@ -1,0 +1,15 @@
+git clone https://github.com/countercept/python-exe-unpacker.git
+
+pip install --user -r requirements.txt
+
+pip install --upgrade xdis
+
+get pyinstxtractor.py new version
+
+python pyinstxtractor.py "Web Scraping.exe"
+
+git clone https://github.com/rocky/python-uncompyle6.git
+
+python setup.py install
+
+uncompyle6 -o ./Decompile/ PYZ-00.pyz_extracted\MyLib.pyc
